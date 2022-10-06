@@ -1,9 +1,9 @@
 <?php
 header('Access-Control-Allow-Origin: *'); //add this CORS header to enable any domain to send HTTP requests to these endpoints:
 $host = "localhost";
-$user = "mkwebd86_crud";
-$password = "Enigm@159";
-$dbname = "mkwebd86_crudpoo";
+$user = "root";
+$password = "";
+$dbname = "reactcrud";
 $id = '';
 
 $con = mysqli_connect($host, $user, $password, $dbname);
